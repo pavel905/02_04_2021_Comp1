@@ -170,7 +170,7 @@ function loop(){
         ball.restarting = true;
         //Даём секунду игрокам на подготовку
         setTimeout(() => {
-            ball.restarting = false;v  
+            ball.restarting = false; 
             //Возвращаем мяч в центр поля
             ball.x = canvas.width / 2;
             ball.y = canvas.height / 2;
